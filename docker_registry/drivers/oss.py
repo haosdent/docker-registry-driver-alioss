@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-docker_registry.drivers.alioss
+docker_registry.drivers.oss
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 oss is Open Storage Service provided by aliyun.com

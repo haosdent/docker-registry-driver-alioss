@@ -1,4 +1,4 @@
-docker-registry-driver-alioss
+docker-registry-driver-oss
 =============================
 
 This is a docker-registry backend driver based on the Open Storage Service from aliyun.com.
@@ -17,8 +17,8 @@ Config
 =========
 You should add all the following configurations to your main docker-registry configuration to further configure it, which by default is  config/config.yml.
 
-    alioss configrations:
-        * storage: specify the storage to use, should be alwasy alioss
+    oss configrations:
+        * storage: specify the storage to use, should be alwasy oss
         * storage_path: specify the path prefix in the oss bucket
         * oss_host: specify the endpoint host of oss
         * oss_bucket: specify the bucket where you want to store these images for your registry
@@ -29,7 +29,7 @@ You should add all the following configurations to your main docker-registry con
 
     oss: &oss
         <<: *common
-        storage: alioss
+        storage: oss
         storage_path: _env:STORAGE_PATH:/registry/
         oss_host: _env:OSS_HOST[:your_oss_endpoint_host]
         oss_bucket: _env:OSS_BUCKET[:default_value]

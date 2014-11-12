@@ -12,7 +12,7 @@ __copyright__ = 'Copyright 2014'
 __credits__ = []
 
 __license__ = 'Apache 2.0'
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 __maintainer__ = 'Chris Jin'
 __email__ = 'chrisjin@outlook.com'
 __status__ = 'Dev'
@@ -20,9 +20,9 @@ __status__ = 'Dev'
 __title__ = 'docker-registry-driver-oss'
 __build__ = 0x000000
 
-__url__ = 'https://github.com/chris-jin/docker-registry-driver-alioss'
+__url__ = 'https://github.com/chris-jin/docker-registry-driver-oss'
 __description__ = 'Docker registry ali oss driver'
-d = 'https://github.com/chris-jin/docker-registry-driver-alioss/archive/master.zip'
+d = 'https://github.com/chris-jin/docker-registry-driver-oss/archive/master.zip'
 
 setuptools.setup(
     name=__title__,
