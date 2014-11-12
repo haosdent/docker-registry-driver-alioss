@@ -12,12 +12,12 @@ __copyright__ = 'Copyright 2014'
 __credits__ = []
 
 __license__ = 'Apache 2.0'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __maintainer__ = 'Chris Jin'
 __email__ = 'chrisjin@outlook.com'
 __status__ = 'Dev'
 
-__title__ = 'docker-registry-driver-alioss'
+__title__ = 'docker-registry-driver-oss'
 __build__ = 0x000000
 
 __url__ = 'https://github.com/chris-jin/docker-registry-driver-alioss'
@@ -33,7 +33,6 @@ setuptools.setup(
     maintainer_email=__email__,
     url=__url__,
     description=__description__,
-    long_description=open('./README.md').read(),
     download_url=d,
     classifiers=['Development Status :: 4 - Beta',
                  'Intended Audience :: Developers',
@@ -48,5 +47,5 @@ setuptools.setup(
     namespace_packages=['docker_registry', 'docker_registry.drivers'],
     packages=['docker_registry', 'docker_registry.drivers'],
     install_requires=open('./requirements.txt').read(),
-    zip_safe=False
+    zip_safe=True
 )
