@@ -33,6 +33,7 @@ setuptools.setup(
     maintainer_email=__email__,
     url=__url__,
     description=__description__,
+    long_description=open('./README.md').read()
     download_url=d,
     classifiers=['Development Status :: 4 - Beta',
                  'Intended Audience :: Developers',
